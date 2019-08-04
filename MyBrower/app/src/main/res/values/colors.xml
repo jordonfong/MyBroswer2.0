@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="reg_red">#f96f66</color>
+    <color name="login">#89d4f0</color>
+    <color name="chat_bg">#AEEEEE</color>
+    <color name="main_top_text_color">#2F4F4F</color>
+    <color name="style_rb">#111211</color>
+
+</resources>

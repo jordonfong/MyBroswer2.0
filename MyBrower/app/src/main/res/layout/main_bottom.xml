@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<RadioGroup
+    android:id="@+id/rg_group"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:gravity="center"
+    >
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:drawableTop="@mipmap/me"
+        style="@style/radioStyle"
+        android:text="@string/rb_me"
+        android:paddingLeft="20dp"
+        />
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:drawableTop="@mipmap/discover"
+        style="@style/radioStyle"
+        android:text="@string/rb_discover"
+        android:paddingLeft="60dp"
+        />
+
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:drawableTop="@mipmap/contact"
+        style="@style/radioStyle"
+        android:text="@string/rb_contact"
+        android:paddingLeft="60dp"
+        />
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:drawableTop="@mipmap/chat"
+        style="@style/radioStyle"
+        android:text="@string/rb_chat"
+        android:paddingLeft="60dp"
+        />
+
+</RadioGroup>
+
+</LinearLayout>
