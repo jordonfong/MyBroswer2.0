@@ -29,7 +29,7 @@ import okhttp3.RequestBody;
 import okhttp3.Response;
 
 public class LoginPresenter {
-
+//全局变量
     private IloginView mloginView;
     private  Context mContext;
     private SharedPreferences sharedPreferences;
